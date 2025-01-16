@@ -19,7 +19,7 @@ def main(page):
             print(f"{teamA} against {teamB} the match time is {match_time}")
     x=1
     for championship in championships:
-        print(f"===============\n champion ship num {x}\n ===============" )
+        print(f"===============\n championship num {x}\n ===============" )
         get_match_info(championship)
         x+=1
 
